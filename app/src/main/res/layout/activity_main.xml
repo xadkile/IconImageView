@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xadkile.IconImageViewDemo.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <xadkile.IconImageView.IconImageView
+        android:id="@+id/arrowImageView"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:src="@drawable/arrow"/>
+
+    <Button
+        android:id="@+id/orangeColorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color: Orange"/>
+    <Button
+        android:id="@+id/gradientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drawable: blue-white gradient"/>
+    <Button
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drawable: image"/>
+</LinearLayout>
