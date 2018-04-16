@@ -1,1 +1,1 @@
-include ':app', ':iconview'
+include ':iconimageview-demo', ':iconimageview'

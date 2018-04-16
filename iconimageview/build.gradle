@@ -25,6 +25,49 @@ android {
 
 }
 
+ext {
+
+    //For bintray and jcenter distribution
+//    bintrayRepo = 'IconImageView'
+//    bintrayName = 'iconimageview'
+//
+//    publishedGroupId = 'com.xadkile'
+//    libraryName = 'IconImageView'
+//    artifact = 'iconimageview' //This artifact name should be the same with library module name
+//
+//    libraryDescription = ''
+//
+//    siteUrl = 'https://github.com/xadkile/IconImageView'
+//    gitUrl = 'https://github.com/xadkile/IconImageView.git'
+//
+//    libraryVersion = '1.0.0'
+//
+//    developerId = 'xadkile'
+//    developerName = 'XadKile'
+//    developerEmail = 'xadkile@gmail.com'
+////    organization = "xadkile"
+//    licenseName = 'The Apache Software License, Version 2.0'  //Example for license
+//    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+//    allLicenses = ["Apache-2.0"]
+
+    bintrayRepo = 'IconImageView' // your repo name
+    bintrayName = 'iconimageview' // has to be same as your library module name
+    publishedGroupId = 'com.xadkile' // your module package name
+    libraryName = "iconimageview"
+    artifact = 'iconimageview' // has to be same as your library module name
+    libraryDescription = 'A custom android ImageView for displaying and manipulating icon'
+    siteUrl = 'https://github.com/xadkile/IconImageView'
+    gitUrl = 'https://github.com/xadkile/IconImageView.git'
+    libraryVersion = '1.0'
+    developerId = 'xadkile'
+    developerName = "XadKile"
+    developerEmail = 'xadkile@gmail.com'
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
@@ -37,3 +80,9 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'
+//apply from: 'https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/install.gradle'
+//apply from: 'https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/bintray.gradle'
+tasks.findByPath(":iconimageview:javadoc").enabled = false
