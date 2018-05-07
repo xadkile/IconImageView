@@ -4,10 +4,15 @@ IconImageView is a custom AppCompatImageView that can contains convenient method
 
 Although this view can be used like a normal ImageView, it is best suited to displaying single-color icons with colors required to be changed quite frequently. That way, I don't have to paint and import a new icon everytime my clients require an icon with new color). Images used in this view should have transparent background.
 # Use
+Import using gradle
+```
+compile 'com.xadkile:iconimageview:1.0'
+```
+# Code
 ```java
 //call methods
-setIconColor(int color)
-setIconColor(Drawable drawable)
+IconImageViewInstance.setIconColor(int color)
+IconImageViewInstance.setIconColor(Drawable drawable)
 ```
 Or
 
