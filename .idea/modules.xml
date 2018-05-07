@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IconImageView.iml" filepath="$PROJECT_DIR$/IconImageView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iconview/iconview.iml" filepath="$PROJECT_DIR$/iconview/iconview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iconimageview-demo/app.iml" filepath="$PROJECT_DIR$/iconimageview-demo/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iconimageview/iconimageview.iml" filepath="$PROJECT_DIR$/iconimageview/iconimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iconimageview-demo/iconimageview-demo.iml" filepath="$PROJECT_DIR$/iconimageview-demo/iconimageview-demo.iml" />
     </modules>
   </component>
 </project>

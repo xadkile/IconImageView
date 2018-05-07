@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/iconview" />
+            <option value="$PROJECT_DIR$/iconimageview" />
+            <option value="$PROJECT_DIR$/iconimageview-demo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
